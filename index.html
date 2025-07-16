@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SheSphere - A Safe Social Platform for Women</title>
+  <link rel="stylesheet" href="./index.css"/>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">SheSphere</div>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="groups.html">Groups</a></li>
+            <!--<li><a href="#">Snips</a></li>-->
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <div class="auth-buttons">
+          <button id="login-button">Login</button>
+          <button id="signup-button" style="background-color: var(--secondary);">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container">
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1>Welcome to SheSphere</h1>
+        <p>A safe online community exclusively for women to connect, share, and support each other.</p>
+        <button id="join-now">Join Now</button>
+      </section>
+
+      <!-- Main Content Area with Feed -->
+      <div class="page-layout">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+          <!-- Categories Section -->
+          <div class="categories-section">
+            <h3>Explore Categories</h3>
+            <div class="categories-grid">
+              <a href="#" class="category-tag">Career & Professional</a>
+              <a href="#" class="category-tag">Health & Wellness</a>
+              <a href="#" class="category-tag">Relationships</a>
+              <a href="#" class="category-tag">Hobbies</a>
+              <a href="#" class="category-tag">Fashion</a>
+              <a href="#" class="category-tag">Education</a>
+            </div>
+          </div>
+          
+          <!-- Trending Topics Section -->
+          <div class="categories-section">
+            <h3>Trending Topics</h3>
+            <div class="categories-grid">
+              <a href="#" class="category-tag">#SelfCare</a>
+              <a href="#" class="category-tag">#WomenInTech</a>
+              <a href="#" class="category-tag">#BookClub</a>
+              <a href="#" class="category-tag">#WorkLife</a>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Main Feed -->
+        <div class="feed-container">
+          <!-- Post Composer -->
+          <div class="post-composer">
+            <textarea placeholder="What's on your mind?" rows="3"></textarea>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <button style="background: none; color: #666; padding: 5px 10px;">📷 Photo</button>
+                <button style="background: none; color: #666; padding: 5px 10px;">📎 Attach</button>
+              </div>
+              <button>Post</button>
+            </div>
+          </div>
+
+          <!-- Posts -->
+          <div class="posts">
+            <!-- Sample Post 1 -->
+            <div class="post">
+              <div class="post-header">
+                <div class="avatar">JS</div>
+                <div>
+                  <div class="post-author">Jane Smith</div>
+                  <div class="post-time">Just now</div>
+                </div>
+              </div>
+              <div class="post-content">
+                <p>Hello everyone! I'm new to SheSphere and wanted to introduce myself. I'm a software engineer from Toronto and love hiking and photography in my free time. Looking forward to connecting with all of you!</p>
+              </div>
+              <div class="post-actions">
+                <button>👍 Like</button>
+                <button>💬 Comment</button>
+                <button>↗️ Share</button>
+              </div>
+            </div>
+
+            <!-- Sample Post 2 -->
+            <div class="post">
+              <div class="post-header">
+                <div class="avatar">AR</div>
+                <div>
+                  <div class="post-author">Amanda Rodriguez</div>
+                  <div class="post-time">2 hours ago</div>
+                </div>
+              </div>
+              <div class="post-content">
+                <p>Just finished reading "Invisible Women" by Caroline Criado Perez and it was eye-opening! Has anyone else read it? Would love to discuss some of the points made about data bias and its real-world impact on women.</p>
+              </div>
+              <div class="post-actions">
+                <button>👍 Like</button>
+                <button>💬 Comment</button>
+                <button>↗️ Share</button>
+              </div>
+            </div>
+
+            <!-- Sample Post 3 -->
+            <div class="post">
+              <div class="post-header">
+                <div class="avatar">ML</div>
+                <div>
+                  <div class="post-author">Michelle Lee</div>
+                  <div class="post-time">Yesterday</div>
+                </div>
+              </div>
+              <div class="post-content">
+                <p>Our women's entrepreneur meetup was amazing yesterday! So inspired by all the brilliant business ideas and the supportive atmosphere. Attaching some photos from the event. Who's joining us next month?</p>
+                <img src="photo.png" alt="Women's entrepreneur meetup" style="width: 100%; height:500px; border-radius: 8px; margin-top: 15px;">
+              </div>
+              <div class="post-actions">
+                <button>👍 Like</button>
+                <button>💬 Comment</button>
+                <button>↗️ Share</button>
+              </div>
+            </div>
+            
+            <!-- Sample Post 4 -->
+            <div class="post">
+              <div class="post-header">
+                <div class="avatar">SK</div>
+                <div>
+                  <div class="post-author">Sara Khan</div>
+                  <div class="post-time">2 days ago</div>
+                </div>
+              </div>
+              <div class="post-content">
+                <p>I just got promoted to Senior Product Manager! 🎉 After 3 years of hard work, it finally happened. For all the women in tech struggling with imposter syndrome - keep pushing forward. Your skills and contributions matter.</p>
+              </div>
+              <div class="post-actions">
+                <button>👍 Like</button>
+                <button>💬 Comment</button>
+                <button>↗️ Share</button>
+              </div>
+            </div>
+            
+            <!-- Sample Post 5 -->
+            <div class="post">
+              <div class="post-header">
+                <div class="avatar">DP</div>
+                <div>
+                  <div class="post-author">Diana Patel</div>
+                  <div class="post-time">3 days ago</div>
+                </div>
+              </div>
+              <div class="post-content">
+                <p>Looking for recommendations for women-focused investing groups or resources. I've been trying to learn more about financial independence and would love to connect with other women who are on the same journey!</p>
+              </div>
+              <div class="post-actions">
+                <button>👍 Like</button>
+                <button>💬 Comment</button>
+                <button>↗️ Share</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Login Modal -->
+  <div class="modal-overlay" id="login-modal">
+    <div class="modal">
+      <button class="close-modal">&times;</button>
+      <h2>Login to SheSphere</h2>
+      <form id="login-form">
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" id="password" required>
+        </div>
+        <div class="verification-steps">
+          <p>SheSphere is a platform exclusively for women.</p>
+          <p>Upon registration, we have a simple verification process to ensure a safe women-only environment.</p>
+        </div>
+        <button type="submit" style="width: 100%; margin-top: 20px;">Login</button>
+        <div style="text-align: center; margin-top: 15px;">
+          <a href="#" id="show-signup">Don't have an account? Sign up</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Signup Modal -->
+  <div class="modal-overlay" id="signup-modal">
+    <div class="modal">
+      <button class="close-modal">&times;</button>
+      <h2>Join SheSphere</h2>
+      <form id="signup-form">
+        <div>
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" required>
+        </div>
+        <div>
+          <label for="signup-email">Email</label>
+          <input type="email" id="signup-email" required>
+        </div>
+        <div>
+          <label for="signup-password">Password</label>
+          <input type="password" id="signup-password" required>
+        </div>
+        <div>
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" required>
+        </div>
+        <div class="verification-steps">
+          <p><strong>Our Verification Process:</strong></p>
+          <p>1. Complete this registration form</p>
+          <p>2. Verify your email address</p>
+          <p>3. Complete a brief verification step to confirm your identity</p>
+          <p>This helps us maintain a safe space for women.</p>
+        </div>
+        <button type="submit" style="width: 100%; margin-top: 20px; background-color: var(--secondary);">Create Account</button>
+        <div style="text-align: center; margin-top: 15px;">
+          <a href="#" id="show-login">Already have an account? Login</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="#">About Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Community Guidelines</a>
+        <a href="#">Help Center</a>
+      </div>
+      <p>&copy; 2025 SheSphere - A Safe Space for Women</p>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
